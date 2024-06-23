@@ -8,8 +8,6 @@ import pandas as pd
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from a .env file if running locally
-load_dotenv()
 
 # Get the API key from environment variables
 openai.api_key = os.getenv('OPENAI_API_KEY')
