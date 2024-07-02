@@ -14,11 +14,8 @@ from langchain.prompts import PromptTemplate
 from concurrent.futures import ThreadPoolExecutor
 import time
 
-# Load .env variable from local directory
-load_dotenv()
-
 # Get API key from env variable
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 @st.cache_resource
 def load_and_process_files(file_paths):
