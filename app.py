@@ -48,7 +48,7 @@ def load_and_process_files(file_paths):
     
     return vectorstore
 
-file_paths = ['intents-responses-01.csv','data.txt','output.txt', 'Philips Hue 464487 Smart Bulb User Manual.pdf','internal-security-act-2.pdf']
+file_paths = ['intents-responses-01.csv','data.txt','output.txt', 'Philips Hue 464487 Smart Bulb User Manual.pdf','isa-booklet.pdf']
 vectorstore = load_and_process_files(file_paths)
 
 @st.cache_resource
