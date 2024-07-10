@@ -105,7 +105,7 @@ def display_response_animation(response, role):
 # You can define file paths and URLs
 file_paths = ['intents-responses-01.csv', 'data.txt','output.txt']
 urls = [
-    'https://www.channelnewsasia.com/topic/cybersecurity','https://sbr.com.sg/topics/singapore-cybersecurity','https://www.csa.gov.sg/News-Events/Press-Releases','https://www.infosecurity-magazine.com/news/','https://thehackernews.com'
+    'https://www.channelnewsasia.com/topic/cybersecurity','https://sbr.com.sg/topics/singapore-cybersecurity','https://www.infosecurity-magazine.com/news/','https://thehackernews.com'
     # You can add more URLs here
 ]
 
