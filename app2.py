@@ -106,7 +106,7 @@ def display_response_animation(response, role):
 file_paths = ['intents-responses-01.csv', 'data.txt','output.txt','IMDA IoT Cyber Security Guide.pdf','Philips Hue 464487 Smart Bulb User Manual.pdf','isa-booklet.pdf']
 urls = [
     'https://www.channelnewsasia.com/topic/cybersecurity','https://sbr.com.sg/topics/singapore-cybersecurity','https://www.infosecurity-magazine.com/news/','https://thehackernews.com','https://www.tuvsud.com/en-sg/industries/consumer-products-and-retail/iot-cybersecurity/cybersecurity-labelling-scheme-from-cyber-security-agency-of-singapore',
-    'https://www.csa.gov.sg/our-programmes/certification-and-labelling-schemes/cybersecurity-labelling-scheme/cybersecurity-labelling-scheme-(cls)product-list','https://www.fortinet.com/resources/cyberglossary/iot-device-vulnerabilities'
+    'https://www.csa.gov.sg/our-programmes/certification-and-labelling-schemes/cybersecurity-labelling-scheme/cybersecurity-labelling-scheme-(cls)product-list','https://www.fortinet.com/resources/cyberglossary/iot-device-vulnerabilities','https://www.crowdstrike.com/blog/statement-on-falcon-content-update-for-windows-hosts/'
     # You can add more URLs here
 ]
 
